@@ -48,6 +48,7 @@ nav .btn-1{
     padding: 8px;
     border-radius: 15px;
     margin: 0 720px 0 720px;
+    transition: ease-in-out ;
     
 }
 .banner .naw{
@@ -78,6 +79,7 @@ nav .btn-1{
     border-radius: 18px;
     border: none;
     background: var(--Linear, linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1)));
+
 }
 .banner .banner-container .btn-3{
     padding: 10px 10px 10px 10px;
@@ -200,6 +202,7 @@ nav .btn-1{
 .cards .cards-item .card-3 h2,p{
      padding-left: 20px;
     padding-right: 20px;
+    
 }
 .cards .cards-item .card-1 .youtube ,.card-2 .youtube ,.card-3 .youtube{
     border-top-right-radius: 25px;
@@ -216,6 +219,8 @@ nav .btn-1{
 .host .host-details{
     margin-left: 480px;
     margin-right: 80px;
+    font-size: medium;
+    color: rgb(192, 187, 187);
 }
 .host .host-image{
     margin-left: 250px;
@@ -260,5 +265,93 @@ nav .btn-1{
 }
 
 @media screen and (max-width:576px) {
+    nav h1{
+        margin-left: 10px;
+    }
+    nav ul{
+        display: none;
+
+    }
+    nav .btn-1{
+        margin-left: 180px;
+        animation: forwardsz;
+        
+    }
     
+    .banner .banner-image .hero-circle{
+        left: 80px;
+    }
+    .banner .banner-image .microphone {
+        left: 190px;
+    }
+    .podcast-container{
+        display: grid;
+        grid-template-columns: repeat(2,2fr);
+    }
+    .box-container-1{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+        margin: 15px;
+        
+
+    }
+    .box-container-2{
+        gap: 10px;
+         display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 10px;
+    }
+     #box-1,#box-2,#box-3,#box-4, #box-5{
+        margin: 15px -10px 20px 20px;
+        height: 230px;
+        width: 230px;
+    }
+    .cards .cards-item {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin: -20px;
+        margin-top: 40px;
+    }
+    .host .host-title{
+       text-wrap: nowrap;
+       justify-items: center;
+    }
+    .host .host-image{
+        position: absolute;
+        left: -130px;
+        margin-top: -510px;
+    }
+    .host .host-name{
+      position: absolute;
+      left: -350px;
+      margin-top: -150px;
+    }
+    .host .host-details{
+    margin-right: -10px;
+     margin-left: -10px;
+     margin-top: 400px;
+     padding: 10px;
+     text-align: center;
+     justify-items: center;
+    }
+    .host .icon{
+        display: flex;
+        position: absolute;
+        left: -350px;
+        margin-top: 20px;
+
+    }
+    .last-work .last-head{
+        margin-top: -40px;
+    }
+    .last-work .last-icon{
+       display: grid;
+       grid-template-columns: repeat(2,1fr);
+    }
+}
+@media screen and (min-width: 992px) and (max:1400px) {
+    *body{
+        position: fixed;
+    }
 }
