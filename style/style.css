@@ -1,3 +1,7 @@
+body{
+    background-color: #1A0B2E;
+    color: white;
+}
 
 
 .inter-fonts {
@@ -13,6 +17,9 @@ nav{
 nav h1{
     margin: 30px 0 30px 200px;
 }
+#logo{
+   color: var(--Linear, linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1)));
+}
 nav ul{
     list-style-type: none;
     display: flex;
@@ -20,15 +27,31 @@ nav ul{
     margin-top: 35px;
 }
 nav .btn-1{
+    color: white;
     /* background-color: linear-gradient(#F7E93F #FB09B4 #9100F8); */
     margin: 24px 200px 24px 0;
     padding: 10px 35px 10px 15px;
     border-radius: 15px;
+    border-radius: 10000px;
+    background: var(--Linear, linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1)));
+
 }
 .banner{
     background-image: url(../assets/hero-bg.png);
     height: 800px;
     background-repeat: no-repeat;
+}
+.banner .new{
+    background-color: #00FF88;
+    color: black;
+    text-align: center;
+    padding: 8px;
+    border-radius: 15px;
+    margin: 0 720px 0 720px;
+    
+}
+.banner .naw{
+    color: #1A0B2E;
 }
 .banner .banner-image .hero-circle{
     position: absolute;
@@ -50,16 +73,18 @@ nav .btn-1{
     margin-bottom: 8px;
 }
 .banner .banner-container .btn-2{
+    color: white;
     padding: 10px 10px 10px 20px;
     border-radius: 18px;
     border: none;
+    background: var(--Linear, linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1)));
 }
 .banner .banner-container .btn-3{
     padding: 10px 10px 10px 20px;
       border-radius: 18px;
-      color: green;
-      border: 2px solid green;
-      background-color: none;
+      color: #00FF88;
+      border: 2px solid #00FF88;
+      background-color: #1A0B2E;
       margin-left: 10px;
 }
 .podcast{
@@ -73,7 +98,7 @@ nav .btn-1{
     font-weight: bold;
 }
 .podcast-container h2{
-    color: green;
+    color: #00FF88;
     font-size: xx-large;
     font-weight: bolder;
     text-align: center;
@@ -91,4 +116,59 @@ nav .btn-1{
     position: absolute;
     bottom: 450px;
     right: -130px;
+}
+.box{
+    background-color: #351165;
+    
+}
+.grid-section{
+    text-align: center;
+    margin-top: 120px;
+}
+.box-container-1{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: 40px 200px 0 200px;
+}
+.box-container-2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 30px 200px 100px 200px;
+}
+#box-1{
+    grid-row: span 2;
+    margin-right: 40px;
+    border-radius: 25px;
+    padding: 50px;
+    align-content: center
+}
+#box-2{
+    padding: 50px;
+    border-radius: 25px;
+}
+#box-3{
+      padding: 50px;
+      margin-top: 30px;
+      border-radius: 25px;
+}
+#box-4{
+    margin-right: -150px;
+     padding: 50px;
+     border-radius: 25px;
+}
+#box-5{
+    margin-left: 200px;
+     padding: 50px;
+     border-radius: 25px;
+}
+.box-container-1 p ,.box-container-2 p ,.podcast p ,.banner .banner-container p{
+    font-size: small;
+    color: rgb(163, 157, 157);
+}
+.cards .cards-title{
+    text-align: center;
+}
+.cards .cards-item{
+    display: flex;
+    margin: 40px 200px 0 200px;
 }
