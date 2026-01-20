@@ -350,8 +350,3 @@ nav .btn-1{
        grid-template-columns: repeat(2,1fr);
     }
 }
-@media screen and (min-width: 992px) and (max:1400px) {
-    *body{
-        position: fixed;
-    }
-}
