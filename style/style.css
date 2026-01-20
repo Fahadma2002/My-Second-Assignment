@@ -30,7 +30,7 @@ nav .btn-1{
     color: white;
     /* background-color: linear-gradient(#F7E93F #FB09B4 #9100F8); */
     margin: 24px 200px 24px 0;
-    padding: 10px 35px 10px 15px;
+    padding: 10px 25px 10px 15px;
     border-radius: 15px;
     border-radius: 10000px;
     background: var(--Linear, linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1)));
@@ -74,13 +74,13 @@ nav .btn-1{
 }
 .banner .banner-container .btn-2{
     color: white;
-    padding: 10px 10px 10px 20px;
+    padding: 10px 10px 10px 10px;
     border-radius: 18px;
     border: none;
     background: var(--Linear, linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1)));
 }
 .banner .banner-container .btn-3{
-    padding: 10px 10px 10px 20px;
+    padding: 10px 10px 10px 10px;
       border-radius: 18px;
       color: #00FF88;
       border: 2px solid #00FF88;
@@ -105,6 +105,7 @@ nav .btn-1{
 }
 .podcast-container p{
     margin-top: -20px;
+    color: rgba(220, 206, 206, 0.841);
 }
 .new{
     font-weight: 600;
@@ -161,7 +162,7 @@ nav .btn-1{
      padding: 50px;
      border-radius: 25px;
 }
-.box-container-1 p ,.box-container-2 p ,.podcast p ,.banner .banner-container p{
+.box-container-1 p ,.box-container-2 p ,.podcast p ,.banner .banner-container p {
     font-size: small;
     color: rgb(163, 157, 157);
 }
@@ -170,5 +171,94 @@ nav .btn-1{
 }
 .cards .cards-item{
     display: flex;
-    margin: 40px 200px 0 200px;
+    margin: 40px 200px 0 40px;
+    gap: 30px;
+}
+.cards .cards-item .card-1{
+    text-align: justify;
+    border-radius: 25px;
+    background-color: #351165;
+}
+.cards .cards-item .card-1 h2,p{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.cards .cards-item .card-2{
+     text-align: justify;
+    border-radius: 25px;
+    background-color: #351165;
+}
+.cards .cards-item .card-2 h2,p{
+     padding-left: 20px;
+    padding-right: 20px;
+}
+.cards .cards-item .card-3{
+     text-align: justify;
+    border-radius: 25px;
+    background-color: #351165;
+}
+.cards .cards-item .card-3 h2,p{
+     padding-left: 20px;
+    padding-right: 20px;
+}
+.cards .cards-item .card-1 .youtube ,.card-2 .youtube ,.card-3 .youtube{
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+}
+.host .host-title{
+    text-align: center;
+    margin: 100px 200px 0 200px;
+}
+.host .host-name{
+    margin-left: 500px;
+    margin-top: 80px;
+}
+.host .host-details{
+    margin-left: 480px;
+    margin-right: 80px;
+}
+.host .host-image{
+    margin-left: 250px;
+    margin-top: -160px;
+}
+.host .icon{
+    margin-left: 500px;
+    margin-top: -40px;
+}
+.host .icon img{
+    margin-left: 10px;
+    border-radius:5px ;
+}
+.host .for-color{
+    background-color: #351165;
+}
+.last-work{
+    background-image: url(/assets/footer-bg.png);
+    height: 400px;
+}
+.last-work .last-icon{
+    display: flex;
+    justify-content: center;
+    margin-top: 220px;
+    margin-left: 30px;
+    color: rgb(163, 157, 157);
+
+}
+.last-work .last-head{
+    text-align: center;
+    font-size: xx-large;
+    margin-top: 120px;
+    margin-bottom: -50px;
+    position: relative;
+    top: 150px;
+}
+.last-work .copyright{
+    text-align: center;
+    margin-top: 10px;
+        font-size: small;
+    color: rgb(163, 157, 157);
+}
+
+@media screen and (max-width:576px) {
+    
 }
