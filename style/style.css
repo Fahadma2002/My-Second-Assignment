@@ -52,9 +52,13 @@ nav .bar{
     padding: 8px;
     border-radius: 15px;
     margin: 0 720px 0 720px;
-    transition: ease-in-out ;
-    
+  
 }
+ .new:hover{
+    transform: rotate(-45deg);
+    transition: transform 1s;
+}
+
 .banner .naw{
     color: #1A0B2E;
 }
@@ -123,6 +127,8 @@ nav .bar{
     position: absolute;
     bottom: 450px;
     right: -130px;
+    color: white;
+    border: none;
 }
 .box{
     background-color: #351165;
