@@ -36,6 +36,10 @@ nav .btn-1{
     background: var(--Linear, linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1)));
 
 }
+nav .bar{
+    display: none;
+}
+
 .banner{
     background-image: url(../assets/hero-bg.png);
     height: 800px;
@@ -273,16 +277,30 @@ nav .btn-1{
 
     }
     nav .btn-1{
-        margin-left: 180px;
-        animation: forwardsz;
+        display: none;
+        /* margin-left: 180px;
+        animation: forwardsz; */
         
+    }
+    nav .bar{
+        display: flex;
+        flex-direction: row;
+        margin-top: 50px;
+        margin-bottom: 60px;
+    }
+    .new{
+        margin: auto;
+        position: absolute;
+        right: 60px;
+        bottom: 600px;
     }
     
     .banner .banner-image .hero-circle{
-        left: 80px;
+        left: 50px;
     }
     .banner .banner-image .microphone {
-        left: 190px;
+        top: 330px;
+        left: 170px;
     }
     .podcast-container{
         display: grid;
